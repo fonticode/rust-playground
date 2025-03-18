@@ -4,9 +4,12 @@ version = "0.1.0"
 edition = "2021"
 
 [workspace]
+resolver = "2" # Important! wgpu/Bevy needs this!
+
 members = [
   "HandsOnRustBook/dungeoncrawl",
   "HandsOnRustBook/flappy",
   "HandsOnRustBook/treehouse",
+  "TenMinPhysics",
 ]
 [dependencies]
